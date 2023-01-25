@@ -10,6 +10,3 @@ echo "192.168.50.10:/srv/share/ /mnt nfs vers=3,proto=udp,noauto,x-systemd.autom
 
 systemctl daemon-reload
 systemctl restart remote-fs.target
-
-
-
